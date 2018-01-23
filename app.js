@@ -37,7 +37,7 @@ function onMessageToEdwardSnowden (message) {
   };
 
   // post message to #random
-  var anonymousChannel = slack.getChannelByName('q_a-townhall');
+  var anonymousChannel = slack.getChannelByName('ama_2018');
   anonymousChannel.postMessage(response);
 }
 
